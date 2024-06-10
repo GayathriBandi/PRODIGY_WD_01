@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  overflow-x: hidden; 
+}
+
+.navbar {
+  background-color: #f2f2f2; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  padding: 15px 30px; 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 10px 20px; 
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  background-color: #e0e0e0; 
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 200px;
+  z-index: 1;
+}
+
+.dropdown-menu a {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dropdown-menu a:hover {
+  background-color: #555;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.main-content {
+  padding-top: 80px;
+}
+
+#how-it-works {
+  background-color: #bbf1d2;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+#home {
+  background-color: #48e0e0; 
+  font-family: "Arial", sans-serif;
+}
+
+#about-us {
+  background-color: #8078c7; 
+  color: white;
+  font-family: "Georgia", serif; 
+}
+
+#graphic-design {
+  background-color: #ec78c9;
+  font-family: "Verdana", sans-serif; 
+}
+
+#promotion {
+  background-color: #c2ea66; 
+  font-family: "Helvetica", sans-serif; 
+}
+
+#consulting {
+  background-color: #6cc98a; 
+  font-family: "Times New Roman", serif; 
+}
+
+#features {
+  background-color: #b15959; 
+  color: white;
+  font-family:"Lucida Sans", sans-serif; 
+}
+
+#contact {
+  background-color: #ff3fe5; 
+  color: white;
+  font-family: "Arial Black", sans-serif; 
+}
+
+#query {
+  background-color: #eb5a5a;
+  color: white;
+  font-family: "Comic Sans MS", cursive; 
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.designer {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto;
+}
